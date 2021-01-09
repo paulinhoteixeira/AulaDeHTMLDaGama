@@ -1,40 +1,69 @@
 <html>
   <head>
-    <title>Minha página HTML</title>
+    <title>Loja do Paulo</title>
   </head>
+
   <body>
-    <h1>Lista de supermercado</h1>
-    <hr />
+    <div id="cabecalho">
+      <h1>Loja do Paulo</h1>
+    </div>
+    <div id="navbar">
+      <div><a href="index.html">Home</a></div>
+      <div><a href="quemsomos.html">Quem somos</a></div>
+      <div><a href="contato.html">Contato</a></div>
+      <div><a href="blog.html">Fique por dentro</a></div>
+    </div>
 
-    Itens para comprar
-    
-    <table border="1" width=100%>
-      <tr>
-        <th width="20%">Icones</th>
-        <th>Item</th>
-        <th>Quantidade</th>
-      </tr>
+    <div id="imagemGeral">
+      <img src="images/carrinho.png" width="30%" />
+    </div>
 
-      <tr>
-        <td><img src="images/carrinho.png" width=20%></td>
-        <td>Arroz</td>
-        <td>5kg</td>
-      </tr>
+    <div id="tituloDestaque">
+      <h2>Produtos em Destaque</h2>
+    </div>
 
-      <tr>
-        <td><img src="images/carrinho.png" width=20%></td>
-        <td>Feijão</td>
-        <td>2kg</td>
-      </tr>
+    <div id="produtos">
+      <div class="produtoDestaque">
+        <img src="images/carrinho.png" />
+        <h3>R$10,00</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          malesuada lobortis sem vel bibendum.
+        </p>
+      </div>
 
-      <tr>
-        <td><img src="images/carrinho.png" width=20%></td>
-        <td>Café</td>
-        <td>10kg</td>
-      </tr>
-    </table>
-  
+      <div class="produtoDestaque">
+        <img src="images/carrinho.png" />
+        <h3>R$385,00</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          malesuada lobortis sem vel bibendum.
+        </p>
+      </div>
 
+      <div class="produtoDestaque">
+        <img src="images/carrinho.png" />
+        <h3>R$100,00</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum
+          malesuada lobortis sem vel bibendum.
+        </p>
+      </div>
+    </div>
 
+    <div id="rodape">
+      <div id="redesSociais">
+        <img src="images/faceIcone.png" /> @lojadopaulo <br />
+        <img src="images/whatsIcone.png" /> @lojadopaulo <br />
+        <img src="images/instaIcone.png" /> @lojadopaulo
+      </div>
+
+      <div id="email">
+        <h3>Receba nossas novidades</h3>
+        <input type="email" id="inputemail" placeholder="Digite seu e-mail">
+        <button>Enviar</button>
+
+      </div>
+    </div>
   </body>
 </html>
